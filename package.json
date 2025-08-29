@@ -11,7 +11,8 @@
     "test:e2e": "vitest run --dir src/http",
     "test:coverage": "vitest run --coverage",
     "test:ui": "vitest --ui",
-    "test:watch": "vitest --dir src/services"
+    "test:watch": "vitest --dir src/services",
+    "postinstall": "npx prisma generate && npx prisma migrate deploy"
   },
   "keywords": [],
   "author": "",
