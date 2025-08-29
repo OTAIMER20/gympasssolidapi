@@ -1,0 +1,10 @@
+{
+  "name": "vitest-enviromment-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prisma-test.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
